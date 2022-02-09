@@ -16,7 +16,7 @@ zmv -Wn '*.*' '*_dorsal_label.*'
 zmv -W '*.*' '*_dorsal_label.*'
 
 ### formula for adding orientation, parts, and descriptions
-catalogNumber*_*magnification*_*orientation*_*description.JPG
+catalogNumber_magnification_orientation_description.JPG
 with underscore as a separator
 
 ### orientation
