@@ -49,7 +49,8 @@ Free text information about the view or part. Should not use underscores in the 
 ### 3D images
 3D images have their own encoding for position based on date and time. The position needs to be recorded
 
-'2020-08-07-15.12.44 ZS PMax.jpg
+```
+2020-08-07-15.12.44 ZS PMax.jpg
 2020-08-07-15.16.51 ZS PMax.jpg
 2020-08-07-15.21.45 ZS PMax.jpg
 2020-08-07-15.26.41 ZS PMax.jpg
@@ -112,5 +113,6 @@ Free text information about the view or part. Should not use underscores in the 
 2020-08-07-20.02.58 ZS PMax.jpg
 2020-08-07-20.07.50 ZS PMax.jpg
 2020-08-07-20.12.43 ZS PMax.jpg
-2020-08-07-20.17.36 ZS PMax.jpg'
+2020-08-07-20.17.36 ZS PMax.jpg
+```
 
