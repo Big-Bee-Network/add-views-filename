@@ -1,0 +1,1 @@
+zmv -Wn '*.*' '*_dorsal_label.*'
