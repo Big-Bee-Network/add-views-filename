@@ -20,28 +20,23 @@ catalogNumber*_*orientation*_*description.JPG
 with underscore as a separator
 
 ### orientation
+```
 lateral
-
 dorsal
-
 ventral
-
 anterior
-
 posterior
+```
 
 ### parts
+```
 wholeBody
-
 head
-
 thorax
-
 abdomen
-
 wing
-
 label
+```
 
 ### description
 Free text information about the view or part. Should not use underscores in the description.
