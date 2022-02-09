@@ -15,7 +15,7 @@ zmv -Wn '*.*' '*_dorsal_label.*'
 ### change all names to append _dorsal_label to name
 zmv -W '*.*' '*_dorsal_label.*'
 
-###formula for adding orientation, parts, and descriptions
+### formula for adding orientation, parts, and descriptions
 catalogNumber*_*orientation*_*description.JPG
 with underscore as a separator
 
