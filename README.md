@@ -14,3 +14,26 @@ zmv -Wn '*.*' '*_dorsal_label.*'
 
 ### change all names to append _dorsal_label to name
 zmv -W '*.*' '*_dorsal_label.*'
+
+###formula for adding orientation, parts, and descriptions
+catalogNumber*_*orientation*_*description.JPG
+with underscore as a separator
+
+### orientation
+lateral
+dorsal
+ventral
+anterior
+posterior
+
+### parts
+wholeBody
+head
+thorax
+abdomen
+wing
+label
+
+###description
+Free text information about the view or part. Should not use underscores in the description.
+
