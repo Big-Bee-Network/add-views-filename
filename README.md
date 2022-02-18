@@ -1,7 +1,7 @@
 ### This short command appends _dorsal_label to all of the files in a folder for example 
 
-UCSB-IZC00009199.JPG is renamed to UCSB-IZC00009199_dorsal_label.JPG
-UCSB-IZC00009217.JPG is renamed to UCSB-IZC00009217_dorsal_label.JPG
+UCSB-IZC00009199.JPG is renamed to UCSB-IZC00009199_dor_lab.JPG
+UCSB-IZC00009217.JPG is renamed to UCSB-IZC00009217_dor_lab.JPG
 
 ### requires using zsh. Use this command to change shell to zsh
 chsh -s /bin/zsh
@@ -13,7 +13,7 @@ autoload zmv
 zmv -Wn '*.*' '*_dorsal_label.*'
 
 ### change all names to append _dorsal_label to name
-zmv -W '*.*' '*_dorsal_label.*'
+zmv -W '*.*' '*_dor_lab.*'
 
 ### formula for adding orientation, parts, and descriptions
 catalogNumber_magnification_orientation_description.JPG
@@ -21,25 +21,25 @@ with underscore as a separator
 
 ### orientation
 ```
-lateral
-dorsal
-ventral
-anterior
-posterior
+lateral (lat)
+dorsal (dor)
+ventral (ven)
+anterior (ant)
+posterior (pos)
 ```
 
 ### parts
 ```
-wholeBody
-head
-thorax
-abdomen
-wing
-label
+wholeBody (wb)
+head (hea)
+thorax (tho)
+abdomen (abd)
+wing (win)
+label (lab)
 ```
 
 ### description
-Free text information about the view or part. Should not use underscores in the description.
+Free text information about the view or part. Should not use underscores in the description. Could include some code indicating different sides of a single label (a,b,c)
 
 ### 3D images
 3D images have their own encoding for position based on date and time. The position needs to be recorded
