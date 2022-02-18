@@ -1,7 +1,8 @@
 ### This short command appends _dorsal_label to all of the files in a folder for example 
 
-UCSB-IZC00009199.JPG is renamed to UCSB-IZC00009199_dor_lab.JPG
-UCSB-IZC00009217.JPG is renamed to UCSB-IZC00009217_dor_lab.JPG
+UCSB-IZC00009199.jpg is renamed to UCSB-IZC00009199_dor_lab.jpg
+
+UCSB-IZC00009217.jpg is renamed to UCSB-IZC00009217_dor_lab.jpg
 
 ### requires using zsh. Use this command to change shell to zsh
 chsh -s /bin/zsh
@@ -10,13 +11,13 @@ chsh -s /bin/zsh
 autoload zmv
 
 ### remove n when ready to do it for real. n just prints what the command will do.
-zmv -Wn '*.*' '*_dorsal_label.*'
+zmv -Wn '*.*' '*_dor_lab.*'
 
 ### change all names to append _dorsal_label to name
 zmv -W '*.*' '*_dor_lab.*'
 
 ### formula for adding orientation, parts, and descriptions
-catalogNumber_magnification_orientation_description.JPG
+catalogNumber_magnification__description_orientation_part.jpg
 with underscore as a separator
 
 ### orientation
@@ -28,7 +29,7 @@ anterior (ant)
 posterior (pos)
 ```
 
-### parts
+### part
 ```
 wholeBody (wb)
 head (hea)
