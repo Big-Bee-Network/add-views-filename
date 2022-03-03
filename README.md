@@ -1,8 +1,9 @@
-### This short command appends _dorsal_label to all of the files in a folder for example 
+### This short command appends abbreviations to all of the files in a folder for example 
 
-UCSB-IZC00009199.jpg is renamed to UCSB-IZC00009199_dor_lab.jpg
+ASUHIC0173816_3x_shortdescription_had_lbs.jpg
 
-UCSB-IZC00009217.jpg is renamed to UCSB-IZC00009217_dor_lab.jpg
+UCSB-IZC00009199_had_lbs.JPG
+
 
 ### requires using zsh. Use this command to change shell to zsh
 chsh -s /bin/zsh
@@ -11,33 +12,33 @@ chsh -s /bin/zsh
 autoload zmv
 
 ### remove n when ready to do it for real. n just prints what the command will do.
-zmv -Wn '*.*' '*_dor_lab.*'
+zmv -Wn '*.*' '*_had_lbs.*'
 
 ### change all names to append _dorsal_label to name
-zmv -W '*.*' '*_dor_lab.*'
+zmv -W '*.*' '*_had_lbs.*'
 
-### formula for adding orientation, parts, and descriptions
-catalogNumber_magnification__description_orientation_part.jpg
-with underscore as a separator
-
-### orientation
-```
-lateral (lat)
-dorsal (dor)
-ventral (ven)
-anterior (ant)
-posterior (pos)
-```
-
-### part
-```
-wholeBody (wb)
-head (hea)
-thorax (tho)
-abdomen (abd)
-wing (win)
-label (lab)
-```
+Abbreviation for Image File Name|Aspect
+had|habitus, dorsal view
+hal |habitus, lateral view
+hav|habitus, ventral view
+hef|head, frontal view
+lbs|labels
+win|wing
+hed|head, dorsal view
+hef|head, frontal view
+hev|head, ventral view
+leg|leg
+thd|thorax, dorsal
+thl|thorax, lateral
+thv|thorax, ventral
+abd|abdomen, dorsal
+abv|abdomen, ventral
+abl|abdomen, lateral
+3d|an image that is part of a 3D image
+imt|image has typed or printed text
+imh|image has handwritten label text
+hab|image of habitat
+det|image contains determination label
 
 ### description
 Free text information about the view or part. Should not use underscores in the description. Could include some code indicating different sides of a single label (a,b,c)
