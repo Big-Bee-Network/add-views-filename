@@ -17,28 +17,28 @@ zmv -Wn '*.*' '*_had_lbs.*'
 ### change all names to append _dorsal_label to name
 zmv -W '*.*' '*_had_lbs.*'
 
-Abbreviation for Image File Name|Aspect
-had|habitus, dorsal view
-hal |habitus, lateral view
-hav|habitus, ventral view
-hef|head, frontal view
-lbs|labels
-win|wing
-hed|head, dorsal view
-hef|head, frontal view
-hev|head, ventral view
-leg|leg
-thd|thorax, dorsal
-thl|thorax, lateral
-thv|thorax, ventral
-abd|abdomen, dorsal
-abv|abdomen, ventral
-abl|abdomen, lateral
-3d|an image that is part of a 3D image
-imt|image has typed or printed text
-imh|image has handwritten label text
-hab|image of habitat
-det|image contains determination label
+|Abbreviation for Image File Name|Aspect|
+|had|habitus, dorsal view|
+|hal |habitus, lateral view|
+|hav|habitus, ventral view|
+|hef|head, frontal view|
+|lbs|labels|
+|win|wing|
+|hed|head, dorsal view|
+|hef|head, frontal view|
+|hev|head, ventral view|
+|leg|leg|
+|thd|thorax, dorsal|
+|thl|thorax, lateral|
+|thv|thorax, ventral|
+|abd|abdomen, dorsal|
+|abv|abdomen, ventral|
+|abl|abdomen, lateral|
+|3d|an image that is part of a 3D image|
+|imt|image has typed or printed text|
+|imh|image has handwritten label text|
+|hab|image of habitat|
+|det|image contains determination label|
 
 ### description
 Free text information about the view or part. Should not use underscores in the description. Could include some code indicating different sides of a single label (a,b,c)
