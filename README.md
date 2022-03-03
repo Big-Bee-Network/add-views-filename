@@ -18,6 +18,7 @@ zmv -Wn '*.*' '*_had_lbs.*'
 zmv -W '*.*' '*_had_lbs.*'
 
 |Abbreviation for Image File Name|Aspect|
+|--------------------------------|------|
 |had|habitus, dorsal view|
 |hal |habitus, lateral view|
 |hav|habitus, ventral view|
