@@ -22,7 +22,6 @@ zmv -W '*.*' '*_had_lbs.*'
 |had|habitus, dorsal view|
 |hal |habitus, lateral view|
 |hav|habitus, ventral view|
-|hef|head, frontal view|
 |lbs|labels|
 |win|wing|
 |hed|head, dorsal view|
