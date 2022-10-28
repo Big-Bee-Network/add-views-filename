@@ -43,6 +43,9 @@ zmv -W '*.*' '*_had_lbs.*'
 ### description
 Free text information about the view or part. Should not use underscores in the description. Could include some code indicating different sides of a single label (a,b,c)
 
+### remove whitespace and replace with underscore
+zmv -Wn '* *' '*_*'
+
 ### 3D images
 3D images have their own encoding for position based on date and time. The position needs to be recorded and kept in the file name. To update the file names:
 
