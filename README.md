@@ -12,7 +12,7 @@ chsh -s /bin/zsh
 autoload zmv
 
 ### remove n when ready to do it for real. n just prints what the command will do.
-zmv -Wn '*.*' '*_had_lbs.*'
+`zmv -Wn '*.*' '*_had_lbs.*'`
 
 ### change all names to append _dorsal_label to name
 zmv -W '*.*' '*_had_lbs.*'
