@@ -64,3 +64,7 @@ With this, the series of files below will change as shown
 2020-08-07-15.21.45 ZS PMax.jpg changes to **UCSB-IZC00028367_3d_2020-08-07-15.21.45.jpg**
 
 
+Also add background and scalebar for 3d images as:
+catalogNumber_background and catalogNumber_scalebar
+
+
