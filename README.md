@@ -55,6 +55,8 @@ zmv -Wn '* ZS PMax*' '**'
 
 zmv -Wn '*UCSB-IZC00028367_*' '*UCSB-IZC00028367_3d_*' adds 3d code to name string
 
+or zmv -Wn '*' 'UCSB-IZC00003796_3d_*'
+
 With this, the series of files below will change as shown
 
 2020-08-07-15.12.44 ZS PMax.jpg changes to **UCSB-IZC00028367_3d_2020-08-07-15.12.44.jpg**
